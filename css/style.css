@@ -1,0 +1,131 @@
+/****************************Tag Selectors*********************************/
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #808080;
+}
+
+h1{
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 2.5em;
+}
+
+h3{
+  color: #66BFBF;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 2em;
+  top: 50px;
+  font-weight: normal;
+}
+
+hr {
+  border: dotted #808080 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+}
+
+span {
+  color: red;
+}
+
+
+
+
+
+
+/****************************Class Selectors*********************************/
+.topdiv {
+  background-color: #cffffe;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud{
+position: absolute;
+right: 300px;
+top: 50px;
+}
+
+.bottom-cloud{
+position: absolute;
+top: 300px;
+left: 300px;
+}
+
+.mid-container {
+  margin: 100px 0;
+}
+
+.skills-set {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills-img {
+  border-radius: 100%;
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.personal-skills-img {
+  border-radius: 100%;
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.about-me {
+  width: 60%;
+  margin: 30px auto;
+}
+
+.contact-message {
+  width: 40%;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.footer {
+  background-color: #66EFEF;
+  padding: 50px 0 20px;
+}
