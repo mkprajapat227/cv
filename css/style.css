@@ -129,3 +129,7 @@ left: 300px;
   background-color: #66EFEF;
   padding: 50px 0 20px;
 }
+
+.footer-link {
+  font-size: 1.2em;
+}
